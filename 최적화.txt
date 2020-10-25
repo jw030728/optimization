@@ -1,0 +1,19 @@
+숫자 선형회귀
+2개이상의 카테고리 있을때 knn 데이터를 입력 받았을 때 이 데이터와 
+가장 근접한 데이터들의 종류가 무엇인지 확인하고 많은 데이터의 종류로 분류하는 알고리즘
+kmeans 그룹짓고 찾기
+2개의 카테고리 있을때 로지스틱
+
+속성들에 의해 변화가 되는 수치가 있는경우 LinearRegression
+
+ 로지스틱 회귀 분석  선형회귀분석+Classification
+대학교 합격 유무등에서 사용
+log odds  activation function  loss function(오차의 범위를 줄이기 위해 사용됨 확률적으로 불가능한 값이 못나오게함)
+ label이 없는 파일인 경우 임의로 label을 정함
+bike 파일에서는 onehot encoding을 사용
+ scatter_matrix를 사용해서 데이터의 대략적인 값 확인
+회귀분석을 위해 LinearRegression을 불러옴
+식별을 하기 위해 Clustering 평균적으로 가까운것을 뭉침   
+Classification 데이터의 label이 주어진 상태로 label을 통하여 값 분류
+아웃라이어(평균에서 많이 벗어난 값) 데이터드링 있는경우 이상하게 나올수 도 잇음
+ 
